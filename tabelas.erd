@@ -1,0 +1,232 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "originX": 0,
+    "originY": 0,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "lockSettings": 63
+  },
+  "doc": {
+    "tableIds": [
+      "03h4m1woo74ddxusgnb9vczep",
+      "03h4m2s459nd3wxo2nztobys1",
+      "03h64m0s9pyrqg1gafhkpx8h7",
+      "03h64nm14w0wvmd27vpmqakyp"
+    ],
+    "memoIds": [
+      "03h4lwlqxoefnf8muwnjqmsly"
+    ]
+  },
+  "collections": {
+    "tableEntities": {
+      "03h4m1woo74ddxusgnb9vczep": {
+        "id": "03h4m1woo74ddxusgnb9vczep",
+        "name": "discente",
+        "columnIds": [
+          "03h4m2ifd5ug139whv16u2n3l",
+          "03h4m1xt52pumj1z0aog60nfb",
+          "03h4m22pa65xkbjwfwyfee7em",
+          "03h4m26qjngy3n4uu1a2azb3i",
+          "03h4m2bjbzecuwxrzn317dyyu"
+        ],
+        "ui": {
+          "x": 121,
+          "y": -242
+        }
+      },
+      "03h4m2s459nd3wxo2nztobys1": {
+        "id": "03h4m2s459nd3wxo2nztobys1",
+        "name": "entrada",
+        "columnIds": [
+          "03h4m2u72f104odwahabk5jpg",
+          "03h4m43wwmueppwnpiejggbir",
+          "03h4m3zohj0yxhky2ns9zthnn",
+          "03h4m422b6o1e94930yno6faa",
+          "03h4m2w4oxgpwd71qwuo0yndn"
+        ],
+        "ui": {
+          "x": 111,
+          "y": -463
+        }
+      },
+      "03h64m0s9pyrqg1gafhkpx8h7": {
+        "id": "03h64m0s9pyrqg1gafhkpx8h7",
+        "name": "equipamento",
+        "columnIds": [
+          "03h64mpz10pj1fcq82f1qqqjt",
+          "03h64mi6jvrxb3qxx6zztr1j3",
+          "03h64mlye0mhezdr9i38iehla",
+          "03h64mrfw6pv3hcqvmr5nvo7c"
+        ],
+        "ui": {
+          "x": -490,
+          "y": -140
+        }
+      },
+      "03h64nm14w0wvmd27vpmqakyp": {
+        "id": "03h64nm14w0wvmd27vpmqakyp",
+        "name": "emprestimo",
+        "columnIds": [
+          "03h64nmuht8tsm6j54ukqdi5e",
+          "03h64nokbx2wvjdik7h5p6kp8",
+          "03h64nsahqxwrxnvzoskv9ngm"
+        ],
+        "ui": {
+          "x": 3,
+          "y": -41
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "03h4m1xt52pumj1z0aog60nfb": {
+        "id": "03h4m1xt52pumj1z0aog60nfb",
+        "tableId": "03h4m1woo74ddxusgnb9vczep",
+        "name": "nome",
+        "dataType": "VARCHAR(50)",
+        "options": 8
+      },
+      "03h4m22pa65xkbjwfwyfee7em": {
+        "id": "03h4m22pa65xkbjwfwyfee7em",
+        "tableId": "03h4m1woo74ddxusgnb9vczep",
+        "name": "telefone",
+        "dataType": "VARCHAR(14)",
+        "options": 8
+      },
+      "03h4m26qjngy3n4uu1a2azb3i": {
+        "id": "03h4m26qjngy3n4uu1a2azb3i",
+        "tableId": "03h4m1woo74ddxusgnb9vczep",
+        "name": "email",
+        "dataType": "VARCHAR(50)",
+        "options": 0
+      },
+      "03h4m2bjbzecuwxrzn317dyyu": {
+        "id": "03h4m2bjbzecuwxrzn317dyyu",
+        "tableId": "03h4m1woo74ddxusgnb9vczep",
+        "name": "matricula",
+        "dataType": "VARCHAR(20)",
+        "options": 8
+      },
+      "03h4m2ifd5ug139whv16u2n3l": {
+        "id": "03h4m2ifd5ug139whv16u2n3l",
+        "tableId": "03h4m1woo74ddxusgnb9vczep",
+        "name": "id",
+        "dataType": "SERIAL",
+        "options": 8
+      },
+      "03h4m2u72f104odwahabk5jpg": {
+        "id": "03h4m2u72f104odwahabk5jpg",
+        "tableId": "03h4m2s459nd3wxo2nztobys1",
+        "name": "id",
+        "dataType": "SERIAL",
+        "options": 8
+      },
+      "03h4m2w4oxgpwd71qwuo0yndn": {
+        "id": "03h4m2w4oxgpwd71qwuo0yndn",
+        "tableId": "03h4m2s459nd3wxo2nztobys1",
+        "name": "data_de_entrada",
+        "dataType": "DATE",
+        "options": 8
+      },
+      "03h4m3zohj0yxhky2ns9zthnn": {
+        "id": "03h4m3zohj0yxhky2ns9zthnn",
+        "tableId": "03h4m2s459nd3wxo2nztobys1",
+        "name": "valor_da_aquisicao",
+        "dataType": "DECIMAL",
+        "options": 8
+      },
+      "03h4m422b6o1e94930yno6faa": {
+        "id": "03h4m422b6o1e94930yno6faa",
+        "tableId": "03h4m2s459nd3wxo2nztobys1",
+        "name": "quantidade",
+        "dataType": "INT",
+        "options": 8
+      },
+      "03h4m43wwmueppwnpiejggbir": {
+        "id": "03h4m43wwmueppwnpiejggbir",
+        "tableId": "03h4m2s459nd3wxo2nztobys1",
+        "name": "nome",
+        "dataType": "VARCHAR(50)",
+        "options": 8
+      },
+      "03h64mi6jvrxb3qxx6zztr1j3": {
+        "id": "03h64mi6jvrxb3qxx6zztr1j3",
+        "tableId": "03h64m0s9pyrqg1gafhkpx8h7",
+        "name": "nome",
+        "dataType": "VARCHAR(50)",
+        "options": 8
+      },
+      "03h64mlye0mhezdr9i38iehla": {
+        "id": "03h64mlye0mhezdr9i38iehla",
+        "tableId": "03h64m0s9pyrqg1gafhkpx8h7",
+        "name": "modelo",
+        "dataType": "VARCHAR(50)",
+        "options": 0
+      },
+      "03h64mpz10pj1fcq82f1qqqjt": {
+        "id": "03h64mpz10pj1fcq82f1qqqjt",
+        "tableId": "03h64m0s9pyrqg1gafhkpx8h7",
+        "name": "id",
+        "dataType": "SERIAL",
+        "options": 8
+      },
+      "03h64mrfw6pv3hcqvmr5nvo7c": {
+        "id": "03h64mrfw6pv3hcqvmr5nvo7c",
+        "tableId": "03h64m0s9pyrqg1gafhkpx8h7",
+        "options": 0
+      },
+      "03h64nmuht8tsm6j54ukqdi5e": {
+        "id": "03h64nmuht8tsm6j54ukqdi5e",
+        "tableId": "03h64nm14w0wvmd27vpmqakyp",
+        "name": "id",
+        "dataType": "SERIAL ",
+        "options": 8
+      },
+      "03h64nokbx2wvjdik7h5p6kp8": {
+        "id": "03h64nokbx2wvjdik7h5p6kp8",
+        "tableId": "03h64nm14w0wvmd27vpmqakyp",
+        "name": "nome",
+        "dataType": "VARCHAR(50)",
+        "options": 8
+      },
+      "03h64nsahqxwrxnvzoskv9ngm": {
+        "id": "03h64nsahqxwrxnvzoskv9ngm",
+        "tableId": "03h64nm14w0wvmd27vpmqakyp",
+        "name": "email",
+        "dataType": "VARCHAR(50)",
+        "options": 0
+      }
+    },
+    "memoEntities": {
+      "03h4lwlqxoefnf8muwnjqmsly": {
+        "id": "03h4lwlqxoefnf8muwnjqmsly",
+        "value": "Controle do almoxarifado do Programa de Educação e Tutorial\n\nContendo informações de entrade, saida, compra, estoque, emprestimo para petianos ou discente (nome, email, telefone, matricula, item que foi emprestado, data_do_emprestimo, data_da_devolução) , itens com baixa\n\n\ndiscente (nome, matricula, telefone, email)\nentrada (nome, data, quantidade, preço)\nsaida (nome, data, quantidade, descrição se quebrou ou queimou)\nestoque ( equipamentos, quantidade guardada e desejada)\nrelação - equipamentos emprestados\n             - local\n             -\nemprestimo (para discente que não são bolsistas) ",
+        "ui": {
+          "x": -572,
+          "y": -459,
+          "width": 643.8169985537888,
+          "height": 219.53498720658592
+        }
+      }
+    }
+  }
+}
