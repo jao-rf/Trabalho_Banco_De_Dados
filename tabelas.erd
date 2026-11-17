@@ -68,8 +68,8 @@
           "03h8umhkuqjcrcv82bp67ghkf"
         ],
         "ui": {
-          "x": -13.8814,
-          "y": 1119.5398
+          "x": 4.0224,
+          "y": 1091.1761
         }
       },
       "03h4m2s459nd3wxo2nztobys1": {
@@ -86,8 +86,8 @@
           "03h7gfgch14lwlfqfyfu207m1"
         ],
         "ui": {
-          "x": -528.7822,
-          "y": 1132.1566
+          "x": -528.7829,
+          "y": 1132.1561
         }
       },
       "03h64m0s9pyrqg1gafhkpx8h7": {
@@ -100,8 +100,8 @@
           "03h8ul8a5jibeq36451bomuim"
         ],
         "ui": {
-          "x": -1609.2332,
-          "y": 1192.3587
+          "x": -1595.6659,
+          "y": 1180.7427
         }
       },
       "03h64nm14w0wvmd27vpmqakyp": {
@@ -116,8 +116,8 @@
           "03h8uo356m87zqjz8slghb320"
         ],
         "ui": {
-          "x": -546.9371,
-          "y": 1581.5278
+          "x": -555.8938,
+          "y": 1575.5568
         }
       },
       "03h7gfkpli7bq8fwfkfuhigx9": {
@@ -133,8 +133,8 @@
           "03h7gfss4643igrplc8zvt1us"
         ],
         "ui": {
-          "x": -549.0212,
-          "y": 1368.8592
+          "x": -540.0684,
+          "y": 1367.3627
         }
       },
       "03h7ghhmqa4h6pmiy9h1lsv92": {
@@ -146,8 +146,8 @@
           "03h7ghygek16xtc49bafa4rks"
         ],
         "ui": {
-          "x": -1561.2651,
-          "y": 1349.417
+          "x": -1564.2513,
+          "y": 1337.4767
         }
       },
       "03h8ukf9jhxvpw9plrzg908o0": {
@@ -163,8 +163,8 @@
           "03h8uolwjdqb3kdimpnu779pp"
         ],
         "ui": {
-          "x": -1224.294,
-          "y": 1470.869
+          "x": -1227.2794,
+          "y": 1464.8976
         }
       },
       "03h8ukh6jdj8pk5ppav0yqz69": {
@@ -180,8 +180,8 @@
           "03h8ums6kfk7w2lfzhzdbrfj1"
         ],
         "ui": {
-          "x": -559.9771,
-          "y": 904.8778
+          "x": -513.711,
+          "y": 906.3673
         }
       },
       "03h8ukl4clqtl4rbb6f6ub184": {
@@ -201,8 +201,8 @@
           "03h8um4k6ohcgbtq1awnvl587"
         ],
         "ui": {
-          "x": -1172.4575,
-          "y": 1004.7196
+          "x": -1170.966,
+          "y": 1000.2413
         }
       }
     },
@@ -312,14 +312,14 @@
         "id": "03h8up0rz46yvyvg4xqioqc61",
         "tableId": "03h4m2s459nd3wxo2nztobys1",
         "name": "produto_id",
-        "dataType": "SERIAL",
+        "dataType": "INT",
         "options": 8
       },
       "03h8uy9n5mn2yg3eddzgpo9j5": {
         "id": "03h8uy9n5mn2yg3eddzgpo9j5",
         "tableId": "03h4m2s459nd3wxo2nztobys1",
         "name": "discente_id",
-        "dataType": "SERIAL",
+        "dataType": "INT",
         "options": 8
       },
       "03h64mi6jvrxb3qxx6zztr1j3": {
@@ -391,7 +391,7 @@
         "id": "03h8up3ob5w48lp19iohlkhnv",
         "tableId": "03h64nm14w0wvmd27vpmqakyp",
         "name": "discente_id",
-        "dataType": "SERIAL",
+        "dataType": "INT",
         "options": 8
       },
       "03h7gfnt4uie5zhwhglr9zndg": {
@@ -434,14 +434,14 @@
         "id": "03h8up1p64ds3lhv7we7w6fo6",
         "tableId": "03h7gfkpli7bq8fwfkfuhigx9",
         "name": "produto_id",
-        "dataType": "SERIAL",
+        "dataType": "INT",
         "options": 8
       },
       "03h8uy992w1u7iii2n2twppxg": {
         "id": "03h8uy992w1u7iii2n2twppxg",
         "tableId": "03h7gfkpli7bq8fwfkfuhigx9",
         "name": "discente_id",
-        "dataType": "SERIAL",
+        "dataType": "INT",
         "options": 8
       },
       "03h7ghit68zv29b3lk5j1674p": {
@@ -508,14 +508,14 @@
         "id": "03h8up2v0imdg1tx3ricmzahf",
         "tableId": "03h8ukf9jhxvpw9plrzg908o0",
         "name": "produto_id",
-        "dataType": "SERIAL",
+        "dataType": "INT",
         "options": 8
       },
       "03h8ut9rbsrqc9jkyqzwjqce4": {
         "id": "03h8ut9rbsrqc9jkyqzwjqce4",
         "tableId": "03h8ukf9jhxvpw9plrzg908o0",
         "name": "emprestimo_id",
-        "dataType": "SERIAL",
+        "dataType": "INT",
         "options": 8
       },
       "03h8ummhd1oaykbymajufjfur": {
@@ -559,14 +559,14 @@
         "id": "03h8uozpts6gxnnr25h7y5f6l",
         "tableId": "03h8ukh6jdj8pk5ppav0yqz69",
         "name": "produto_id",
-        "dataType": "SERIAL",
+        "dataType": "INT",
         "options": 8
       },
       "03h8uyafkj2zcm4n25chuu0pw": {
         "id": "03h8uyafkj2zcm4n25chuu0pw",
         "tableId": "03h8ukh6jdj8pk5ppav0yqz69",
         "name": "discente_id",
-        "dataType": "SERIAL",
+        "dataType": "INT",
         "options": 8
       },
       "03h8ulethncaq6fiauw9x4gxu": {
@@ -642,14 +642,14 @@
         "id": "03h8uostttobvcor58qvu6g0v",
         "tableId": "03h8ukl4clqtl4rbb6f6ub184",
         "name": "categoria_produto_id",
-        "dataType": "SERIAL",
+        "dataType": "INT",
         "options": 8
       },
       "03h8uoyrpim4gygd86sjkkxpx": {
         "id": "03h8uoyrpim4gygd86sjkkxpx",
         "tableId": "03h8ukl4clqtl4rbb6f6ub184",
         "name": "local_armazenado_id",
-        "dataType": "SERIAL",
+        "dataType": "INT",
         "options": 8
       }
     },
